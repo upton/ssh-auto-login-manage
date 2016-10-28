@@ -175,7 +175,6 @@ class SSHGO:
         self.screen = curses.initscr()
         curses.noecho()
         curses.cbreak()
-        curses.curs_set(0)
         self.screen.keypad(1)
         self.screen.border(0)
 
