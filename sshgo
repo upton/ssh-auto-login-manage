@@ -207,6 +207,8 @@ class SSHGO:
         self.run()
 
     def run(self):
+        self.render_screen()
+        self.close_all()
         while True:
             self.render_screen()
             c = self.screen.getch()
